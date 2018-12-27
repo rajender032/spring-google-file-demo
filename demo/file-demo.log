@@ -1,0 +1,21 @@
+2018-12-27 16:21:03.251  INFO 22776 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on mrajender-lp with PID 22776 (C:\File-Demo\demo\target\classes started by mrajender in C:\File-Demo\demo)
+2018-12-27 16:21:03.253  INFO 22776 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2018-12-27 16:21:03.286  INFO 22776 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-27 16:21:03.286  INFO 22776 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-27 16:21:04.333  INFO 22776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8019 (http)
+2018-12-27 16:21:04.349  INFO 22776 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-27 16:21:04.350  INFO 22776 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-27 16:21:04.356  INFO 22776 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_77\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_77/bin/server;C:/Program Files/Java/jre1.8.0_77/bin;C:/Program Files/Java/jre1.8.0_77/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\mrajender\AppData\Local\Microsoft\WindowsApps;;C:\Users\mrajender\Downloads\spring-tool-suite-3.9.6.RELEASE-e4.9.0-win32-x86_64\sts-bundle\sts-3.9.6.RELEASE;;.]
+2018-12-27 16:21:04.444  INFO 22776 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-27 16:21:04.444  INFO 22776 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1157 ms
+2018-12-27 16:21:04.672  INFO 22776 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-27 16:21:04.879  INFO 22776 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-27 16:21:04.923  INFO 22776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8019 (http) with context path ''
+2018-12-27 16:21:04.926  INFO 22776 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.931 seconds (JVM running for 2.738)
+2018-12-27 16:21:07.780  INFO 22776 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-12-27 16:21:07.783  INFO 22776 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-12-27 16:21:07.916  INFO 22776 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-12-27 16:21:07.924  INFO 22776 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-197]
+2018-12-27 16:21:07.924  INFO 22776 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-27 16:21:07.925  INFO 22776 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-12-27 16:21:07.927  INFO 22776 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
